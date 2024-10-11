@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* h1 {
+  font-size: 600;
+  color:#0000ff
+} */
+
+body {
+  font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(214, 200, 144), rgba(245, 220, 145, 0.13), rgb(214, 200, 144));          
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  /* height: 60px; */
+  position: sticky;
+  background: linear-gradient(to right, #36240f, #654C30, #36240f);      
+  /* background-color: #654C30; */
+  top: 0;
+  z-index: 2;
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);    
+}
+
+/* Início do carrossel de imagens */
+
+/* Fim do carrossel de imagens */
+
+.nomeAplicativo {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color:#654C30;
+  color: beige;
+  padding: 5px 5px 5px;
+  
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+  letter-spacing: 1px;
+  color: #581c87;        
+}
+/* 
+h2:hover {
+  background: linear-gradient(to right, #770c0c9f, #fc05059f, #770c0c9f);    
+  color: black;
+} */
+
+.dropbtn {
+    background-color:#654C30;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e2c8a9;
+  /* background-color: #c6e1ecfd; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #373435;
+}
+
+/* Estilos do submenu */
+.submenu {
+  position: relative;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  left: 100%; /* Aparecerá à direita do item pai */
+  top: 0;
+  background-color: #f0dac1;
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu-content a {
+  padding: 8px 16px;
+  display: block;
+}
+
+.submenu:hover .submenu-content {
+  display: block;
+}
+
+/* fim do menu dropDown */
+
+/* inserindo do Vila do Povo */
+
+.project-item, .comentarios-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);    
+}
+
+iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  border: none;
+}
+
+.video-container {
+  width: 100%; /* Ajuste conforme necessário */
+  /* margin-top: 10px; */
+  margin-bottom: 5px;
+  border: 2px solid rgba(88, 75, 46, 0.596); /* Opção de borda */
+  gap: 2rem;
+  padding: 10px;
+  background-color: rgba(235, 211, 161, 0.596);
+  text-align: center;
+  /* display: none; */
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.bordaTitulo {
+  width: 100%;
+  letter-spacing: 2px;
+  border: 2px solid rgba(37, 175, 230, 0.596); /* Opção de borda */
+  color: black;
+  border-radius: 50px; /* Bordas arredondadas */
+  background-color: rgba(37, 175, 230, 0.178);
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);    
+}
+
+/* fim Vila do Povo */
+
+.item {
+    /* letter-spacing: 2px; */
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid cornsilk;
+    background-color: black;
+    box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.842); /* Sombra mais intensa ao passar o mouse */    
+    color: cornsilk;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 40%;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  background-color: #f1f1f170;
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);
+}
+
+.containerTempo {
+  position: relative;
+  max-width: 800px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* padding: 10px; */
+  background-image: url('./image/ceu.png');
+  background-size: cover; /* A imagem cobre todo o container */
+  background-color: #f1f1f170;
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);
+}
+
+.containerTarefa {
+  position: relative;
+  max-width: 800px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* padding: 10px; */
+  /* background-image: url('./image/ceu.png'); */
+  /* background-size: cover;  */
+  /* A imagem cobre todo o container */
+  background-color: #f1f1f170;
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);
+}
+
+.container2 {
+  position: relative;
+  overflow-y: auto;  /* Permitir rolagem no conteúdo */
+  height: 600px;     /* Defina a altura que deseja para o container */
+  max-width: 800px; 
+  margin: auto;    /* Centraliza horizontalmente o container */
+  /* border: 1px solid #333;  */
+  background-color:#f1f1f170 ;
+  padding: 0;        /* Remover padding que pode estar causando o espaçamento */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);    
+}
+
+.container3 {
+  position: relative;
+  overflow-y: auto;  /* Permitir rolagem no conteúdo */
+  height: 600px;     /* Defina a altura que deseja para o container */
+  max-width: 800px; 
+  margin: auto;    /* Centraliza horizontalmente o container */
+  /* border: 1px solid #333;  */
+  background-color:#f1f1f170 ;
+  padding: 10px;        /* Remover padding que pode estar causando o espaçamento */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329);    
+}
+
+.containerImg {
+  position: relative;
+  max-width: 500px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+  /* background-color: #f1f1f170; */
+  /* box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.329); */
+}
+
+.containerMsg {
+  font-size: 16px;
+  max-width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  /* padding: 0; */
+  background-color:#faf2f281;
+  box-shadow: 0px 5px 0px 5px #9e988427;
+}
+
+.top-bar {
+  flex-basis: 100%;
+  position: sticky;
+  top: 0; /* Fixar no topo do container */
+  height: 30px; /* Altura da barra */
+  background-color: #f1f1f1;
+  /* background: linear-gradient(to right, rgb(218, 203, 147), rgb(241, 238, 238), rgb(218, 203, 147));       */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+  /* box-shadow: 0px 0px 15px 0px rgba(58, 34, 7, 0.329);   */
+  z-index: 1; /* Manter a barra acima do conteúdo */
+}
+
+.top-barTempo {
+  flex-basis: 100%;
+  position: sticky;
+  font-size: 23px;
+  top: 0; /* Fixar no topo do container */
+  height: 30px; /* Altura da barra */
+  background-color: #172554;
+  color: #93c5fd;
+  /* background: linear-gradient(to right, rgb(218, 203, 147), rgb(241, 238, 238), rgb(218, 203, 147));       */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid #ccc; */
+  /* box-shadow: 0px 0px 15px 0px rgba(58, 34, 7, 0.329);   */
+  z-index: 1; /* Manter a barra acima do conteúdo */
+}
+
+.top-bar h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px; /* Tamanho do título */
+  color: #333; /* Cor do texto */
+}
+
+article {
+  padding: 10px; /* Espaçamento interno do conteúdo */
+  margin-top: 10px; /* Distância entre o conteúdo e a barra fixa */
+  text-align: left; /* Garantir que o texto seja alinhado à esquerda */
+}
+
+
+/* Estilos de cores */
+
+.corBlue {
+  color: blue;
+  text-decoration: none;
+}
+
+.corBlueB {
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
+
+.corRed {
+  color: red;
+}
+
+.corGreen {
+  color: green;
+}
+
+img {
+  max-width: 80px; /* Ajuste o tamanho conforme necessário */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.445);    
+}
+
+.imgLimpo {
+  max-width: 180px; /* Ajuste o tamanho conforme necessário */
+  margin-top: 10px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 0px 0px;    
+}
+
+.imgSmall {
+  margin-top: 2px;
+  max-width: 60px; /* Ajuste o tamanho conforme necessário */
+  box-shadow: 0px 0px 0px 0px; /* Para imagens PNG */ 
+  transition: transform 0.9s ease;
+}
+.imgSmall:hover {
+  /* opacity: 50%; */
+  transform: scale(1.4);
+  box-shadow: 0px 0px 0px 0px rgba(58, 34, 7, 0.445); 
+}
+
+
+.imgFormat {
+  max-width: 250px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 10px;
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.568);    
+}
+
+.imgPng {
+  max-width: 250px; /* Ajuste o tamanho conforme necessário */
+  box-shadow: 0px 0px 0px 0px;    
+}
+
+.imgFormatp {
+  margin-top: 15px;
+  max-width: 250px; /* Ajuste o tamanho conforme necessário */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.568);    
+}
+
+.boxSobre {
+  /* background: linear-gradient(to right, #0c0701, #422606, #0c0701);    */
+  background-color: #0c0701;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: #0c0701;
+  color: #f7e5ad;
+}
+
+.corBox {
+  letter-spacing: 2px;
+  color: white;
+}
+
+/*  
+.imgSmall:hover {
+  transform: scale(1.1); 
+  z-index: 1000;
+}    */
+ 
+/* Início do carrossel de imagens */
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Para que o container se ajuste ao tamanho da imagem */
+}
+
+.imgVarias {
+  /* border-radius: 4%; */
+  margin-top: 0px;
+  max-width: 300px; /* Ajuste conforme necessário */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.445);     
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.nav-button {
+  position: absolute;
+  top: 10px; /* Distância do topo da imagem */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif; /* Ajuste conforme necessário */
+  color: #333; /* Cor do texto da mensagem */
+}
+
+#leftButton {
+  left: 10px; /* Distância do lado esquerdo */
+}
+
+#rightButton {
+  right: 10px; /* Distância do lado direito */
+}
+
+/* Apenas para estilizar o container */
+#target-container {
+  margin-top: 500px; /* Simulação de distância para que haja rolagem */
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Fim do carrossel de imagens */
+
+/* Início do relógio digital */
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* border-radius: 3px; */
+}  
+
+.relogio div{
+  height: 50px;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  /* background-color: rgb(63, 34, 2); */
+  background-color: #0c0701;
+  /* background: linear-gradient(to right, #36240f, #654C30, #36240f);  */
+  box-shadow: 2px 3px 15px 2px rgba(58, 34, 7, 0.445); 
+  border-radius: 7px;
+  letter-spacing: 2px;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.relogio span.tempo {
+  font-size: 12px;
+  color: #ffffffcc;  
+}
+
+.relogio span.tempoSeg {
+  font-size: 20px;
+  color: #ffffff8c;
+}
+
+.relogio span.tempomiliSeg {
+  font-size: 20px;
+  color: #ffffff83;
+}
+/* Final do relógio digital */
+
+/* aumenta a imagem quando passa o mouse em cima dela */
+/* .imgFormat:hover {
+  transform: scale(1.5);
+} */
+
+footer {    
+  position: sticky;
+  bottom: 0;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #0c0701;
+  background: linear-gradient(to right, #0c0701, #422606, #0c0701);        
+  /* background-color: #472a09; */
+  color: white;
+  box-shadow: 2px -3px 15px 2px rgba(58, 34, 7, 0.329);    
+  z-index: 2;
+}
+
+/* formulário */
+
+form {
+  width: 80%; /* Aumenta a largura do formulário para 80% da largura da página */
+  max-width: 600px; /* Limita a largura máxima a 600px */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  margin-top: 5px;
+}
+
+input[type="text"], textarea {
+  width: 100%; /* Faz com que os campos ocupem 100% da largura do formulário */
+  box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura */
+}
+
+textarea {
+  width: 100%;      /* Faz com que o textarea ocupe 100% da largura do container pai */
+  max-width: 100%;   /* Garante que o campo não ultrapasse o tamanho da tela */
+  height: 400px;     /* Define uma altura padrão */
+  box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura total */
+  padding: 6px;
+}
+
+.form-container {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os campos */
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column; /* Alinha o label acima do input */
+  width: 100%; /* Define a largura dos grupos de input */
+}
+
+.corButton {
+  font-size: 15px;
+  background-color: #f1cfa8;
+  align-items: center;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 2px 2px #c2bebe;
+  transition: transform 0.9s ease;
+}
+
+.corButton:hover {
+  background-color: #ce9d65;
+  /* font-size: 90%; */
+  box-shadow: 3px 6px 6px 2px #c2bebe;
+}
+/* input {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+} */
+
+.corDestaque {
+  font-weight: bold;
+  color: #e11d48;
+}
+
+@media (max-width: 600px) {
+  textarea {
+    height: 150px;   /* Ajusta a altura para telas menores */
+  }
+}
+
+input[type="text"] {
+  width: 100%;      /* Faz com que o campo de texto seja também responsivo */
+  box-sizing: border-box;
+}
+
+/* Início da ancoragem */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Final da ancoragem */
+
+.caixa-maior {
+  background: linear-gradient(to right, black, #172554, black);  
+  width: 100%; 
+  max-width: 600px; 
+  /* opacity: 0.8; */
+  padding: 20px;
+  /* border: solid 1px #60a5fa; */
+  border-radius: 25px;
+  box-shadow: 2px 3px 15px 5px rgba(115, 127, 238, 0.445);       
+}
+
+.input-cidade {
+  border: none;/* borda do elemento */
+  outline: none;/* borda quando seleciona o elemento */
+  padding: 10px;/* espaçamento interno */
+  border-radius: 24px;/* arredonda as bordas */
+  font-size: 20px;
+  background-color: #e9dede2b;
+  /* background-color: #7c7c7c2b; */
+  color: #fff;
+  width: 85%;
+  /* width: calc( 100% - 100px); */
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  /* border-radius: 50px; */
+  background-color: #fdfbfb46;
+  /* background-color: #dad0d02b; */
+  /* float: right; */
+  cursor: pointer;
+}
+
+.bordaButton {
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.caixa-menor {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.lupa {
+  height: 20px;
+}
+
+.cidade {
+  letter-spacing: 1px;
+  color: #93c5fd;
+  font-size: 20px;
+}
+
+.temp {
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.descricao {
+  color: #ffffff;
+  margin-left: 20px;
+  text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+}
+
+.umidade {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+/* Início da lista de tarefas*/
+
+
+
+/* Final da lista de tarefas*/

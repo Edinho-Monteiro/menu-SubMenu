@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DropDown</title>
+</head>
+<body>
+    <!-- <center><h2 class="nomeAplicativo">Nome do Aplicativo</h2></center> -->
+    <header>
+        <div class="dropdown">
+            <button class="dropbtn">&#9776;</button>
+            <div class="dropdown-content">
+                <a href="#">Início</a>
+                <a href="https://edinho-monteiro.github.io/ChatGPT-apiYouTube/" target="_blank">Box de API</a>
+
+                <div class="submenu">
+                    <a href="#"><span class="corBlue">Submenu ►</span></a>
+                    <div class="submenu-content">
+                        <a href="#">Topo da página</a>
+                        <a href="#prompt">Prompt</a>
+                        <a href="#aplicativos">Desenvolvimento APP</a>
+                        <a href="#links">Links</a>
+                        <a href="#realize">Realize</a>
+                        <a href="#video">Abat-jour Giratório</a>
+                        <a href="#tempo">Previsão do Tempo</a>
+                        <a href="#blocoDeNotas">Bloco de Notas</a>
+                        <a href="#about">Sobre nós</a>
+                    </div>
+                </div>
+
+                <div class="submenu">
+                    <a href="#"><span class="corBlue">Aplicativos ►</span></a>
+                    <div class="submenu-content">
+                        <a href="https://edinho-monteiro.github.io/ChatGPT-video/" target="_blank">1º Aplicativo</a>
+                        <a href="https://edinho-monteiro.github.io/Playlist/" target="_blank">Playlist</a>
+                        <a href="https://edinho-monteiro.github.io/ChatGPT-Portfolio/" target="_blank">Portfólio</a>
+                        <a href="https://edinho-monteiro.github.io/Projeto/" target="_blank">Projetos</a>
+                        <a href="https://edinho-monteiro.github.io/ChatGPT-vilaDoPovo/" target="_blank">Vila do Povo</a>
+                        <a href="https://edinho-monteiro.github.io/vivereParvo/" target="_blank">Vivere Parvo</a>
+                        <a href="https://edinho-monteiro.github.io/Calculadora/" target="_blank">Calculadora</a>
+                    </div>
+                </div>
+
+                <div class="submenu">
+                    <a href="#"><span class="corBlue">eBook ►</span></a>
+                    <div class="submenu-content">     
+                        <a href="#autismo">Autismo</a>
+                        <a href="#tdh">TDH</a>
+                        <a href="#landingPage">Landing Page</a>
+                        <!-- <div class="submenu">
+                            <a href="#"><span class="corBlue">Submenu ►</span></a>
+                            <div class="submenu-content">   
+                            <a href="#">Outro 1</a>
+                            <a href="#">Outro 2</a>
+                            <a href="#">Outro 3</a>
+                        </div> -->
+                   </div>
+               </div>
+
+           </div>
+        </div>
+    </header>
+    
+    <center><img src="./image/icon.png" class="imgLimpo" alt="DropDown"></center>
+    
+    <!-- <center><h5>✔️ ☑️ 👉 👇 ✅ 🔥 🔸 ♾️ 🔹 ⭐ 🟩 ❓ 🏷️ ❗️ 🟪 🔻 📘 🔵 📩 ☎️ 🔴 🤞 ⏱ 🟣👆 💎 ❓ ⚙️ 👉🏼 🔔 🔒 🌐 🔍 🌐 🔑 🛠️ 🎨 📊 🔄 💥 💲</h5></center> -->
+    
+    <!-- início do novo carrocel de imagens -->
+    
+    <!-- <h2 section id="">Empreenda</h2> -->
+    <!-- <section class="containerImg">
+        <article>
+            <center>
+                <div class="image-container">
+                    <button id="leftButton" class="nav-button">&#9664;</button>
+                    <img src="./image/aplicativo.jpg" class="imgVarias" alt="Descrição" onclick="scrollToAplicativos()">                    
+                    <button id="rightButton" class="nav-button">&#9654;</button>
+                </div>
+                <p id="imageMessage" class="message"></p>
+            </center>      
+        </article>
+    </section>
+    
+    <section id="aplicativos">
+        <article>
+            <h2>Seção de Aplicativos</h2>
+            <p>Aqui está o conteúdo completo sobre aplicativos.</p>
+        </article>
+    </section> -->
+    
+    <!-- Final do novo carrocel de imagens -->
+    
+    <!-- início do Relógio digital -->
+    
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        
+        <div>
+            <span id="segundos" class="tempoSeg">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+        
+        <!-- <div>
+            <span id="milissegundos" class="tempomiliSeg">00</span>
+            <span class="tempo">MilSeg</span>
+        </div> -->
+    </div>
+    
+    <!-- final do Relógio digital -->
+    <!-- início do carrocel de imagens -->
+    
+    <section class="containerImg">
+        <article>
+            <center>
+                <div class="image-container">
+                    <button id="leftButton" class="nav-button">&#9664;</button>
+                    <img id="imageDisplay" class="imgVarias" src="./image/aplicativo.jpg" alt="Imagem 1">
+                    <button id="rightButton" class="nav-button">&#9654;</button>
+                </div>
+                <p id="imageMessage" class="message"></p>
+            </center>      
+        </article>
+    </section>
+    
+    <!-- Fim do carrocel de imagens -->
+    
+        <h2 section id="">Empreenda</h2>
+             <section class="container">
+                 <article>
+                     <center><img src="./image/art(0).jpg" class="imgFormat" alt=""></center>      
+                     <p><center><strong><i><small>A mensagem dessa imagem é uma reflexão sobre ação e iniciativa, transmitida por uma citação de Arthur Ashe. Ela está dividida em três partes que estimulam a pessoa a tomar atitude, independentemente de suas circunstâncias atuais:</small></i></strong></center></p>
+                     <b><ul><li class="corBlue">Comece onde você está</li></ul></b> <ul>👉 Essa frase sugere que o momento ideal para começar qualquer projeto ou desafio é o presente. Não importa onde você esteja ou quais sejam suas condições atuais, o importante é iniciar.</ul>
+                     <b><ul><li class="corBlue">Use o que você tem</li></ul></b> <ul>👉 Muitas vezes, as pessoas podem esperar por condições perfeitas ou por recursos adicionais antes de começar algo. Esta parte da mensagem incentiva a usar os recursos disponíveis no momento, por mais limitados que possam parecer, em vez de esperar por algo melhor ou ideal.</ul>
+                     <b><ul><li class="corBlue">Faça o que você pode</li></ul></b> <ul>👉 Aqui, há um estímulo para agir de acordo com suas capacidades atuais, fazendo o melhor que pode ser feito dentro das circunstâncias. Mesmo que o resultado não seja perfeito ou completo, o importante é fazer o que está ao seu alcance.</ul>
+                     <p>A citação transmite a importância de ação proativa, sugerindo que o progresso é feito através de passos iniciais, independentemente das limitações que possam existir. É um chamado à perseverança e ao uso consciente de recursos e habilidades disponíveis.</p>        
+                     <b><ul><li class="corBlue">Importância de dar o primeiro passo</li></ul></b> <ul>👉 Dar o primeiro passo é o momento em que se determina a realização de algo, como um sonho ou propósito.</ul>
+                     <b><ul><li class="corBlue">Dificuldade de dar o primeiro passo</li></ul></b> <ul>👉 Começar uma mudança pode parecer mais difícil do que dar continuidade a algo que já está em andamento.</ul>
+                     <b><ul><li class="corBlue">Importância de ter um plano</li></ul></b> <ul>👉 É preciso ter um planejamento para que a jornada seja menos traumática possível.</ul>
+                     <b><ul><li class="corBlue">Importância de ter disciplina</li></ul></b> <ul>👉 Estar em equilíbrio com o corpo e a mente ajuda a ter foco para realizar objetivos.</ul>
+                     <b><ul><li class="corBlue">Importância de não ficar ansioso</li></ul></b> <ul>👉 A ansiedade pode atrapalhar a focar nas ações práticas que precisam ser tomadas.</ul>
+                     <p>Lao Tsé também disse que “um caminho de mil léguas começa com um primeiro passo” e que “este primeiro passo, na direção certa, já se traduz na metade do caminho”.</p>        
+                 </article>
+             </section>
+        </section>
+
+        <h2 section id="prompt">Prompt</h2>         
+            <!-- <center><p>Formule perguntas claras</p></center> -->
+            <section class="container2">
+                <!-- Barra fixa no topo do container -->
+                <div class="top-bar">
+                    <h2>Seja específico</h2>
+                </div>
+                <!-- Conteúdo do container -->
+                <article>
+                    <center><img src="./image/prompt.jpg" class="imgFormat" alt=""></center>
+                    <strong><ul><li class="corBlue">Dicas para criar prompts mais eficientes</li></ul></strong> 
+                    <b><ul><li class="corBlue">Seja específico:</li></ul></b> <ul></ul>Quanto mais detalhes você fornecer, melhor o resultado será. Em vez de dizer "ajude com CSS", por exemplo, diga "como centralizar um container no meio da página usando CSS?"</ul>
+                    <b><ul><li class="corBlue">Defina o contexto:</li></ul></b> <ul>👉 Se o prompt envolver algo que você já fez, inclua informações relevantes. Por exemplo: "Eu já ajustei o z-index, mas agora preciso de ajuda para ajustar a rolagem dentro do container."</ul>
+                    <b><ul><li class="corBlue">Use exemplos:</li></ul></b> <ul>👉 Sempre que possível, forneça trechos de código ou exemplos de como o problema está se manifestando. Isso ajuda a fornecer soluções mais direcionadas.</ul>
+                    <b><ul><li class="corBlue">Formule perguntas claras:</li></ul></b> <ul>👉 Ao invés de fazer perguntas muito abertas, tente focar em problemas ou desafios específicos. Perguntas como "Como posso melhorar o desempenho de rolagem na minha página?" funcionam bem.</ul>
+                    <b><ul><li class="corBlue">Explique o que já tentou:</li></ul></b> <ul>👉 Se você já tentou algumas soluções, mas elas não funcionaram, diga o que deu errado. Isso ajuda a evitar sugestões que você já testou e pode oferecer novas alternativas.</ul>
+                    <p>Explore o poder dos prompts de IA em diferentes tipos de conteúdo com nosso guia detalhado. De artigo de blog a copy de e-mail marketing e roteiro de vídeo, veja dicas para redigir prompts eficazes e aproveitar ao máximo a inteligência artificial na sua rotina.</p>                    
+                    <p>Você sabia que 7 em cada 10 profissionais de marketing já utilizam Inteligência Artificial (IA) para personalizar as suas estratégias? Como consequência, segundo dados do 2024 State of Marketing Report da HubSpot em parceria com Litmus, Rock Content e Search Engine Journal, são mais de duas horas por dia em economia de tempo que são usadas em outras tarefas mais estratégicas. E é por isso que os prompts são tão importantes.</p>
+                    <p>Sim, se fala muito em IA, ChatGPT, Gemini e outras tantas soluções, mas, para os profissionais de marketing, o sucesso com o uso dessa tecnologia passa diretamente pela forma como você faz um pedido ou direcionamento para as ferramentas de IA, ou seja, o famoso prompt.</p>
+                    <p>O que acha, então, de tirar as suas dúvidas sobre o assunto com nosso guia de prompts de Inteligência Artificial para produção de conteúdo? Continue a leitura!</p>
+                    <center><img src="./image/prompt2.jpg" class="imgFormat" alt="falta a magem"></center>
+                    <b><ul><li class="corBlue">O que é prompt?</li></ul></b> 
+                    <b><ul><li class="corBlue">Por que usar prompts?</li></ul></b> 
+                    <b><ul><li class="corBlue">Quais são os tipos de prompt?</li></ul></b> 
+                    <b><ul><li class="corBlue">Prompts para produção de conteúdo:</li></ul></b>  
+                    <b><ul><li class="corBlue">Qual é a importância do olhar humano na produção de conteúdo?</li></ul></b> 
+                    <b><ul><li class="corBlue">O que é prompt?</li></ul></b>
+                    <p>O termo “prompt” se torna cada vez mais popular porque desempenha um papel crucial no universo do marketing e da criação de conteúdo: funcionando como uma instrução ou estímulo que direciona e influencia o processo criativo de sistemas baseados em inteligência artificial (IA).</p> 
+                    <p>Segundo a definição da Microsoft, um prompt é essencialmente: “um comando ou um conjunto de instruções que orienta a geração de respostas ou conteúdos específicos por parte de sistemas baseados em inteligência artificial (IA)”.</p> 
+                    <p>Ele garante que o conteúdo gerado esteja alinhado com os objetivos de marketing de uma marca ou empresa.</p> 
+                    <p>Por exemplo, um prompt pode direcionar um sistema de IA para desenvolver um post de blog que aborde as tendências de consumo sustentável, especificando o tom, o estilo e os pontos-chave a serem abordados — incluindo termos que podem ou não ser utilizados, termos proibidos e demais indicações do gênero.</p>  
+                    <p>Esse comando inicial é fundamental para que o conteúdo produzido seja relevante e eficaz na comunicação com o público-alvo.</p>
+                    <b><ul><li class="corBlue">Por que usar prompts?</li></ul></b>
+                    <p>Para quem quer utilizar a IA no seu dia a dia, é importante entender também os benefícios dos prompts.</p>
+                    <b><ul><li class="corBlue">Economia de tempo</li></ul></b>
+                    <p>Os prompts agilizam o processo de criação de conteúdo ao fornecer um direcionamento claro desde o início, essas instruções diminuem a necessidade de múltiplas revisões e ajustes.</p> 
+                    <p>Na prática, isso permite que o conteúdo seja produzido de maneira mais rápida, reduzindo o ciclo de produção e permitindo que o foco em outras tarefas críticas.</p>
+                    <b><ul><li class="corBlue">Superação do bloqueio de escritor</li></ul></b>
+                    <p>Outro benefício dos prompts é que eles ajudam a resolver o bloqueio de escritor, um desafio comum. Como isso funciona? Ao oferecer um ponto de partida, eles eliminam o intimidante “papel em branco”, o que pode ser muito útil em cenários de alta pressão, nos quais a produção constante de conteúdo é necessária.</p>
+                    <b><ul><li class="corBlue">Garantia de alinhamento com objetivos específicos</li></ul></b>
+                    <p>Por fim, os prompts garantem que todo o conteúdo produzido esteja alinhado com os objetivos estratégicos da empresa. Ao utilizar prompts que incorporam palavras-chave e temas específicos, você garante que o conteúdo não só faça sentido para o público-alvo, mas também ajude a seguir as metas de SEO e branding.</p>
+                    <b><ul><li class="corBlue">Quais são os tipos de prompt?</li></ul></b>
+                    <p>Mas também é importante entender quais são os diferentes tipos de prompt, que vão impactar diretamente no resultado final.</p>
+                    <b><ul><li class="corBlue">Perguntas abertas</li></ul></b>
+                    <p>Prompts na forma de perguntas abertas são projetadas para estimular o pensamento crítico e a exploração de ideias. Eles não limitam as respostas a uma simples afirmação ou negação, permitindo uma resposta mais elaborada e profunda, como esses exemplos:</p>
+                    <p>“O que você acha que é o maior desafio na criação de conteúdo hoje em dia?”</p>
+                    <p>“Como você descreveria sua experiência com inteligência artificial?”</p>
+                    <p>Esses tipos de perguntas são úteis para gerar discussões em redes sociais, entrevistas com especialistas ou em pesquisas de mercado, contextos nos quais a profundidade da resposta é mais valiosa do que a resposta em si.</p>
+                    <b><ul><li class="corBlue">Perguntas fechadas</li></ul></b>
+                    <p>Ao contrário das perguntas abertas, as perguntas fechadas focam em obter respostas específicas e diretas, geralmente limitadas a “sim” ou “não”. Elas são eficazes para coletar dados concretos e realizar análises quantitativas, como:</p>
+                    <p>“Você já usou alguma ferramenta de IA para criar conteúdo?”</li></ul></b>
+                    <p>“Você prefere trabalhar em equipe ou individualmente?”</li></ul></b>
+                    <p>Esses prompts são particularmente úteis em questionários. Aqui, respostas rápidas e fáceis de analisar são necessárias para orientar decisões estratégicas.</p>
+                    <b><ul><li class="corBlue">Comandos ou instruções</li></ul></b>
+                    <p>Prompts formulados como comandos ou instruções servem para direcionar ações específicas. Eles são claros e concisos, deixando pouco espaço para interpretações, ajudando a construir um texto, por exemplo:</p>
+                    <p>“Liste três benefícios do marketing de conteúdo”</p>
+                    <p>“Descreva o processo de humanização do conteúdo gerado por IA”</p>
+                    <p>Esses prompts são extremamente úteis em ambientes educacionais, pois, aqui, informações precisas e diretas são fundamentais. Ou seja, o marketing de conteúdo pode se beneficiar diretamente desse tipo de comando.</p>
+                    <center><img src="./image/prompt3.jpg" class="imgFormat" alt="falta a magem"></center>
+                    <b><ul><li class="corBlue">Prompts criativos</li></ul></b>
+                    <p>Já os prompts criativos são projetados para incentivar a inovação e a originalidade da ferramenta de IA. Na prática, eles desafiam o software a pensar fora da caixa e a explorar cenários hipotéticos ou criar narrativas envolventes:</p>
+                    <p>“Imagine um futuro onde a IA é responsável por toda a criação de conteúdo. Como seria?”</p>
+                    <p>“Crie um título atraente para um artigo sobre as tendências do marketing de conteúdo em 2024.”</p>
+                    <p>Especialmente em campanhas de marketing e publicidade, casos em que a diferenciação criativa pode determinar o sucesso de um produto ou serviço no mercado, esse tipo de comando pode ajudar bastante.</p>
+                    <p>Prompts para produção de conteúdo: como utilizar em ferramentas de inteligência artificial?</p>
+                    <p>Às vezes, estamos com tantas tarefas para fazer, que acabamos nos sentindo muito pressionados na hora de criar vários conteúdos em um curto espaço de tempo. Para profissionais freelancers, por exemplo, que às vezes possuem diversos clientes, ter uma ajudinha pode ser o melhor caminho para ter uma maior produtividade e entregar seus trabalhos com qualidade.</p>
+                    <p>Na hora de criar conteúdos e ir buscar apoio, seja com o ChatGPT ou outra ferramenta de IA – ou qualquer outra ferramenta sem IA, podemos utilizar prompts que irão adiantar e muito o trabalho. Aqui na Rock Content mesmo, por exemplo, temos alguns prompts que fomos testando até encontrar a melhor maneira de utilizá-los.</p>
+                    <b><ul><li class="corBlue">Prompts para criação de Conteúdo Briefing:</li></ul></b>
+                    <p>Faça um briefing para um conteúdo com o título [Insira o título do post] com a keyword principal [kw principal] e [kw secundária].</p> 
+                    <p>Que tópicos podem ser abordados em um artigo com título “Insira o título do post” com a keyword principal [kw principal] e [kw secundária].</p> 
+                    <p>Crie um briefing completo para a criação de um conteúdo otimizado para os mecanismos de busca que entregue uma boa experiência para os usuários, com a keyword principal sendo [kw principal], o título [Insira o título do post]. O objetivo do artigo é [insira o objetivo do artigo. O que sua marca tem como intenção ao fazer esse artigo?]. A audiência desse artigo são [pessoas interessadas em assunto x] e suas buscas também podem ser sobre [insira palavras-chave secundárias].</p>
+                    <center><img src="./image/prompt.png" class="imgLimpo" alt="falta a magem"></center>                    
+                    <b><ul><li class="corBlue">Criação de Artigo:</li></ul></b>
+                    <p>Escreva um artigo sobre [tópico principal], com a palavra-chave principal sendo [kw principal]. Fale sobre [pontos que não podem estar de fora do texto]. O texto deve ter linguagem clara e [informal, formal? Diga como o texto deve ser comunicado]. O conteúdo deve ter no mínimo [x] caracteres.</p>
+                    <p>Faça um resumo sobre o texto abaixo, falando sobre os pontos principais de maneira clara e objetiva. O resumo será inserido abaixo do título de um artigo, e, por isso, deve ser curto: [inserir texto do artigo]</p>
+                    <b><ul><li class="corBlue">Palavras-chave:</li></ul></b>
+                    <p>Quero [X] sugestões de palavras-chave que falem sobre [tópico]</p>
+                    <p>Gere uma lista de [x] palavras-chave sobre [tópico]. Ordene essas palavras-chave em etapas de funil de vendas, com palavras-chave no topo do funil, meio do funil e fundo do funil.</p>
+                    <p>Crie uma lista de palavras-chave de indexação semântica latente que se relacionem sobre [tópico].</p>
+                    <p>Separe tópicos por intenção de buscas (transacional, informacional, navegacional e comercial) [indicar os tópicos]</p>
+                </article>
+            </section>
+        </section>
+
+        <h2 section id="aplicativos">Aplicativos</h2>         
+        <!-- <center><p>&copy Todos direitos reservados - Edinho Monteiro</p></center> -->
+            <section class="container2">
+                <!-- Barra fixa no topo do container -->
+                <div class="top-bar">
+                    <h2>Desenvolvimento de APP</h2>
+                </div>    
+                <!-- Conteúdo do container -->
+                <article>
+                    <center><img src="./image/aplicativo.jpg" class="imgFormat" alt=""></center>
+                    <!-- <h2>Desenvolvimento de Apps</h2> -->
+                    <strong><h3 class="corBlue">Introdução</h3></strong>
+                    <p>O desenvolvimento de aplicativos móveis e web é um campo dinâmico que combina tecnologia, design e negócios para criar soluções inovadoras, que atendem às necessidades dos usuários em várias plataformas. Desde o início da era digital, os aplicativos evoluíram de simples ferramentas de produtividade para experiências interativas completas, que oferecem desde comunicação e entretenimento até e-commerce e educação. Este texto explora os principais aspectos envolvidos no desenvolvimento de aplicativos, desde a concepção até a implementação.</p>
+                    <strong><h3 class="corBlue">Etapas do Desenvolvimento de Aplicativos</h3></strong>
+                    <p>O processo de desenvolvimento de um aplicativo envolve diversas fases, que vão desde a ideia inicial até a entrega e manutenção do produto final. As principais etapas incluem:</p>
+                    <strong><h3 class="corBlue">1. Concepção e Ideação</h3></strong>
+                    <p>Todo aplicativo começa com uma ideia. Nesta fase, os desenvolvedores e partes interessadas (stakeholders) definem os problemas ou as necessidades que o aplicativo irá resolver, o público-alvo, as funcionalidades principais e a viabilidade do projeto. Aqui, também são realizadas pesquisas de mercado e uma análise competitiva para entender como o aplicativo se destaca em comparação a outros disponíveis.</p>
+                    <p>As perguntas principais que precisam ser respondidas nesta fase incluem:</p>
+                    <strong><ul><li class="corBlue">Quem são os usuários-alvo?</li></ul></strong>
+                    <strong><ul><li class="corBlue">Quais são as funcionalidades essenciais?</li></ul></strong>
+                    <strong><ul><li class="corBlue">Qual problema este aplicativo resolve?</li></ul></strong>
+                    <strong><h3 class="corBlue">2. Planejamento e Design</h3></strong>
+                    <p>Com a ideia inicial clara, a próxima fase é o planejamento detalhado do aplicativo. Isso envolve a criação de uma <span class="corDestaque">arquitetura de software</span> que define como o aplicativo será estruturado. Também nesta fase, são elaborados os <span class="corDestaque">protótipos</span> e o <span class="corDestaque">design de interface de usuário (UI) e experiência de usuário (UX).</span></p>
+                    <p>O design do aplicativo é essencial para garantir que ele seja fácil de usar e atrativo. Os protótipos interativos permitem que os stakeholders visualizem o produto antes de sua construção, e ajustes podem ser feitos com base no feedback recebido.</p>
+                    <p>Alguns componentes importantes do design incluem:</p>
+                    <ul><li><strong class="corBlue">Wireframes e mockups:</strong> Representações visuais básicas do layout e da estrutura do aplicativo.</li></ul>
+                    <ul><li><strong class="corBlue">Fluxos de navegação:</strong> Mapeamento de como os usuários irão navegar entre as telas e funcionalidades do aplicativo.</li></ul>
+                    <ul><li><strong class="corBlue">Design responsivo:</strong> Garantir que o aplicativo seja compatível com várias plataformas e tamanhos de tela, como smartphones, tablets e desktops.</li></ul>
+                    <strong><h3 class="corBlue">3. Desenvolvimento</h3></strong>
+                    <p>O desenvolvimento é a fase onde a ideia do aplicativo começa a ganhar forma com o código. Ela pode ser dividida em duas categorias principais: front-end e back-end.</p>
+                    <ul><li><strong class="corBlue">Front-end:</strong> É a parte do aplicativo com a qual os usuários interagem diretamente. Ele inclui a construção das interfaces visuais e a implementação de interações com os usuários.</li></ul>
+                    <ul><ul><li>Tecnologias usadas: HTML, CSS, JavaScript, React Native, Flutter, Swift (para iOS), Kotlin ou Java (para Android).</li></ul></ul>
+                    <ul><li><strong class="corBlue">Back-end:</strong> Envolve a lógica do servidor, bancos de dados e APIs que dão suporte à funcionalidade do aplicativo. O back-end garante que o aplicativo funcione de maneira eficaz, conectando-o a bancos de dados, autenticação de usuários e integração com APIs externas.</li></ul>
+                    <ul><ul><li>Tecnologias usadas: Node.js, Python, Java, Ruby, PHP, SQL/NoSQL, Firebase.</li></ul></ul>
+                    <p>Durante o desenvolvimento, as metodologias ágeis, como <strong><span class="corDestaque">Scrum</span></strong> ou <strong><span class="corDestaque">Kanban</span></strong>, são comumente usadas para organizar o trabalho em sprints (curtos ciclos de desenvolvimento), garantindo que o progresso seja feito de forma incremental e que ajustes possam ser feitos conforme necessário.</p>
+                    <strong><h3 class="corBlue">4. Teste e Qualidade</h3></strong>
+                    <p>Antes do lançamento, o aplicativo precisa ser rigorosamente testado para garantir que ele funcione conforme o esperado em diferentes cenários. <span class="corDestaque">O teste de qualidade (QA)</span> envolve várias etapas, incluindo:</p>
+                    <ul><li><span class="corBlueB">Testes funcionais:</span> Para verificar se todas as funcionalidades do aplicativo estão funcionando corretamente.</li></ul>
+                    <ul><li><span class="corBlueB">Testes de compatibilidade:</span> Para garantir que o aplicativo funcione em diferentes dispositivos e sistemas operacionais.</li></ul>
+                    <ul><li><span class="corBlueB">Testes de performance:</span> Para verificar se o aplicativo responde rapidamente e lida com altos volumes de tráfego.</li></ul>
+                    <ul><li><span class="corBlueB">Testes de segurança:</span> Para garantir que o aplicativo esteja protegido contra vulnerabilidades, como acessos não autorizados ou ataques de injeção.</li></ul>
+                    <p>Ferramentas de automação de testes como <span class="corDestaque">Selenium</span> e <span class="corDestaque">Appium</span> são frequentemente usadas para acelerar o processo de QA.</p>
+                    <strong><h3 class="corBlue">5. Implantação e Lançamento</h3></strong>
+                    <p>Depois que o aplicativo passa nos testes, ele está pronto para ser lançado. Dependendo do tipo de aplicativo, ele pode ser disponibilizado em diferentes plataformas:</p>
+                    <ul><li><span class="corBlueB">Aplicativos móveis</span> são lançados nas lojas de aplicativos, como a App Store (iOS) ou Google Play Store (Android).</li></ul>
+                    <ul><li><span class="corBlueB">Aplicativos web</span> são lançados em servidores, acessíveis por navegadores.</li></ul>
+                    <p>O lançamento envolve a submissão do aplicativo para revisão, especialmente em lojas de aplicativos móveis, onde ele precisa ser aprovado de acordo com as políticas da plataforma.</p>
+                    <strong><h3 class="corBlue">6. Manutenção e Atualizações</h3></strong>
+                    <p>O desenvolvimento de aplicativos não termina com o lançamento. Após o lançamento, a equipe de desenvolvimento deve estar preparada para realizar manutenção contínua, incluindo a correção de bugs, a otimização de performance e o lançamento de novas funcionalidades.</p>
+                    <p>Com base no feedback dos usuários e em análises de dados de uso, os desenvolvedores podem lançar atualizações periódicas para melhorar a experiência do usuário e garantir que o aplicativo continue relevante.</p>
+                    <h2>Tecnologias Populares para o Desenvolvimento de Aplicativos</h2>
+                    <p>Existem diversas tecnologias e ferramentas que os desenvolvedores podem usar, dependendo das necessidades específicas do projeto. Algumas das mais populares incluem:</p>
+                    <ul><li><span class="corBlueB">React Native:</span> Framework de código aberto que permite o desenvolvimento de aplicativos móveis para Android e iOS usando JavaScript e React.</li></ul>
+                    <ul><li><span class="corBlueB">Flutter:</span> Um kit de ferramentas da Google para o desenvolvimento de interfaces nativas para Android e iOS a partir de uma única base de código.</li></ul>
+                    <ul><li><span class="corBlueB">Swift e Kotlin:</span> Linguagens de programação nativas para o desenvolvimento de aplicativos para iOS (Swift) e Android (Kotlin).</li></ul>
+                    <ul><li><span class="corBlueB">Node.js:</span> Ambiente de execução JavaScript que é amplamente utilizado no desenvolvimento de back-end.</li></ul>
+                    <ul><li><span class="corBlueB">Firebase:</span> Plataforma oferecida pelo Google que fornece serviços de back-end, como autenticação de usuários e banco de dados em tempo real.</li></ul>
+                    <h2>Considerações Finais</h2>
+                    <p>Desenvolver um aplicativo bem-sucedido requer mais do que apenas habilidades de codificação; envolve a colaboração entre desenvolvedores, designers, gestores de produtos e analistas de qualidade. Ao seguir um processo estruturado, que vai da ideação à manutenção, os desenvolvedores podem criar aplicativos que realmente atendem às necessidades dos usuários, proporcionando uma experiência de uso eficiente e intuitiva.</p>
+                    <p>Os aplicativos desempenham um papel central em nossas vidas digitais, e o desenvolvimento de aplicativos continuará a evoluir à medida que novas tecnologias emergirem, oferecendo oportunidades infinitas para inovação e melhoria contínua.</p>
+                    <center><img src="./image/responsivo.jpg" class="imgFormat" alt="Local da imagem"></center>
+                    <h2>Site Responsivo</h2>
+                    <p>Um <span class="corDestaque">site responsivo</span> é crucial nos dias de hoje, pois adapta seu layout automaticamente para diferentes dispositivos, garantindo uma ótima experiência de navegação em smartphones, tablets, notebooks, e desktops. Com o aumento significativo do uso de dispositivos móveis, ter um site responsivo não é apenas uma tendência, mas uma necessidade para alcançar uma base de usuários mais ampla.</p>
+                    <p><span class="corBlueB">Importância de um site responsivo</samp></p>
+                    <ul><li><span class="corBlueB">Acessibilidade e Usabilidade:</span></li></ul>
+                    <p>Um site responsivo oferece uma experiência de navegação intuitiva, independente do dispositivo utilizado. Ele ajusta o conteúdo, imagens, e menus de forma dinâmica, facilitando a leitura e navegação sem necessidade de zoom ou rolagem excessiva.</p>
+                    <ul><li><span class="corBlueB">Melhor SEO (Search Engine Optimization)</span></li></ul>
+                    <p>Motores de busca como o Google priorizam sites responsivos nos resultados de pesquisa. Isso significa que um site responsivo tem maior chance de aparecer nas primeiras posições de pesquisa, aumentando a visibilidade e o tráfego.</p>
+                    <ul><li><span class="corBlueB">Aumento nas Taxas de Conversão</span></li></ul> 
+                    <p>Um layout que se adapta a qualquer tela reduz o risco de abandono do site. Quando o usuário encontra um site fácil de navegar, com botões e formulários funcionais, ele tende a realizar ações desejadas, como fazer compras, se inscrever em newsletters, ou solicitar serviços.</p>
+                    <ul><li><span class="corBlueB">Economia de Manutenção</span></li></ul>
+                    <p>Em vez de manter múltiplos sites para diferentes dispositivos, um site responsivo requer menos esforço e custos de manutenção. As atualizações são feitas de forma centralizada, beneficiando todas as versões do site.</p>
+                    <ul><li><span class="corBlueB">Melhor Experiência do Usuário:</span></li></ul>
+                    <p>Independentemente de onde o usuário acessa o site, ele espera uma experiência consistente. Sites que não são responsivos podem perder credibilidade e frustrar visitantes, o que resulta em uma má reputação online.</p>
+                    <center><img src="./image/empreendedor.jpg" class="imgFormat" alt=""></center>
+                    <p><center><strong><i><small>processo do empreendedorismo, com elementos-chave como a lâmpada (simbolizando a ideia), engrenagens (planejamento e execução), e gráficos de crescimento</small></i></strong></center></p>
+                    <h2>&copy Aplicativos - Edinho Monteiro</h2>
+                    <p><strong>1º Aplicativo (10/08/2024):</strong> <a href="https://edinho-monteiro.github.io/ChatGPT-video/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ChatGPT-video/</a></p>          
+                    <p><strong>Aba Interativa:</strong> <a href="https://edinho-monteiro.github.io/abaInterativa/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/abaInterativa/</a></p>          
+                    <p><strong>Box de API:</strong> <a href="https://edinho-monteiro.github.io/ChatGPT-apiYouTube/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ChatGPT-apiYouTube/</a></p>          
+                    <p><strong>Ofurô Zen:</strong> <a href="https://edinho-monteiro.github.io/ofuroZen/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ofuroZen/</a></p>          
+                    <p><strong>Playlist:</strong> <a href="https://edinho-monteiro.github.io/Playlist/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/Playlist/</a></p>          
+                    <p><strong>Portfólio do Hael, Ariela e Liz:</strong> <a href="https://edinho-monteiro.github.io/ChatGPT-Portfolio/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ChatGPT-Portfolio/</a></p>          
+                    <p><strong>Portfólio do Kaíque:</strong> <a href="https://edinho-monteiro.github.io/Kaique/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/Kaique/</a></p>          
+                    <p><strong>Projetos de Artesanatos:</strong> <a href="https://edinho-monteiro.github.io/Projeto/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/Projeto/</a></p>          
+                    <p><strong>StreamBox:</strong> <a href="https://edinho-monteiro.github.io/ChatGPT-StreamBox/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ChatGPT-StreamBox/</a></p>          
+                    <p><strong>Vila do Povo:</strong> <a href="https://edinho-monteiro.github.io/ChatGPT-vilaDoPovo/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/ChatGPT-vilaDoPovo/</a></p>          
+                    <p><strong>Vivere Parvo:</strong> <a href="https://edinho-monteiro.github.io/vivereParvo/" target="_blank" class="corBlue">https://edinho-monteiro.github.io/vivereParvo/</a></p>          
+                </article>
+            </section>
+        </section>
+
+        <h2 section id="links">Links Úteis</h2>
+        <!-- <center><p>Páginas interessantes</p></center> -->
+        <!-- <section id="inicio"> -->
+            <section class="container3">
+               <article">
+                    <center><img src="./image/link.png" class="imgSmall" alt="link"></center>
+                    <p><strong>Cdnjs:</strong> <a href="https://cdnjs.com/libraries/jquery" target="_blank" class="corBlue">https://cdnjs.com/libraries/jquery...</a><i><small> (Biblioteca JavaScript para operações DOM.)</small></i></p>          
+                    <p><strong>Copilot:</strong> <a href="https://copilot.microsoft.com/" target="_blank" class="corBlue">https://copilot.microsoft.com/</a></p>          
+                    <p><strong>Dicionário:</strong> <a href="https://dicio.com.br/" target="_blank" class="corBlue">https://dicio.com.br/</a></p>          
+                    <p><strong>Font-awesome:</strong> <a href="https://fontawesome.com/search/" target="_blank" class="corBlue">https://fontawesome.com/search/...</a><i><small> (A maior e melhor biblioteca de componentes web de código aberto. Font Awesome é a biblioteca de ícones e kit de ferramentas da Internet, usado por milhões de designers, desenvolvedores e criadores de conteúdo.)</small></i></p>                    
+                    <p><strong>freepik:</strong> <a href="https://br.freepik.com/?log-in=google" target="_blank" class="corBlue">https://br.freepik...</a></p>          
+                    <p><strong>Gemini:</strong> <a href="https://gemini.google.com/app" target="_blank" class="corBlue">https://gemini.google.com/app</a></p>          
+                    <p><strong>GigHub:</strong> <a href="https://github.com" target="_blank" class="corBlue">meu Perfil no GitHub</a></p>
+                    <p><strong>Google Fonts:</strong> <a href="https://fonts.google.com/" target="_blank" class="corBlue">https://fonts.google.com/</a></p>          
+                    <p><strong>Google Tradutor:</strong> <a href="https://translate.google.com/" target="_blank" class="corBlue">https://translate...</a></p>          
+                    <p><strong>GTmetrix:</strong> <a href="https://gtmetrix.com/" target="_blank" class="corBlue">https://gtmetrix.com/...</a><i><small> (A GTmetrix é uma ferramenta de performance web criada pela empresa Carbon60 que atua com gerenciamento de Cloud.)</small></i></p>          
+                    <p><strong>Guia de layout CSS Flexbox:</strong> <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" class="corBlue">https://css-tricks...flexbox/</a><small><i>(Nosso guia completo para layout CSS flexbox. Este guia completo explica tudo sobre flexbox, focando em todas as diferentes propriedades possíveis para o elemento pai (o flex container) e os elementos filhos (os flex items). Ele também inclui histórico, demonstrações, padrões e um gráfico de suporte ao navegador.)</i></small></p>          
+                    <p><strong>HostGator</strong> <a href="https://www.hostgator.com.br/hospedagem-de-sites-seu-sucesso?gad_source=1&gclid=CjwKCAjw0aS3BhA3EiwAKaD2ZfEHhfN0aRsx6YsdY90geVfzXmCZYYkjgA-VVhd9YjzAIxknIkQiBBoCfDAQAvD_BwE" target="_blank" class="corBlue">https://www.hostgator.com.br...</a><small><i> (Domínio, E-mail e SSL Grátis — Crie um Site que Cresce com Você e Conte com SSL, Domínio, Email e Criador de Sites Grátis).</i></small></p>          
+                    <p><strong>Iconfinder</strong> <a href="https://www.iconfinder.com/" target="_blank" class="corBlue">https://www.iconfinder.com/...</a><small><i> (Milhões de gráficos para seus projetos de design. Criados por designers independentes.)</i></small></p>          
+                    <p><strong>Materializecss:</strong> <a href="https://www.materializecss.com/" target="_blank" class="corBlue">https://www.materializecss.com/</a><small><i> (Um framework front-end moderno e responsivo baseado em Material Design. Dicas de Design e Desenvolvimento na sua caixa de entrada. Todos os dias úteis.)</i></small></p>          
+                    <p><strong>MND Web Docs:</strong> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox" target="_blank" class="corBlue">https://developer...flexbox...</a><small><i> (A Rede de Desenvolvedores da Mozilla (MDN) é uma plataforma de aprendizagem em evolução para tecnologias da Web e o software que alimenta a Web, incluindo: Padrões web como CSS, HTML, e JavaScript.)</i></small></p>          
+                    <p><strong>PageSpeed Insights:</strong> <a href="https://pagespeed.web.dev/" target="_blank" class="corBlue">https://pagespeed.web.dev/...</a><small><i> (O PageSpeed Insights (PSI) gera relatórios sobre a experiência do usuário em uma página em dispositivos móveis e computadores. dispositivos e fornece sugestões sobre como a página pode ser melhorada.)</i></small></p>          
+                    <p><strong>Thenoun Project:</strong> <a href="https://thenounproject.com/" target="_blank" class="corBlue">https://thenounproject.com/...</a><small><i> (O Noun Project está construindo uma linguagem visual global que nos une.)</i></small></p>          
+                    <p><strong>unDraw:</strong> <a href="https://undraw.co/illustrations/" target="_blank" class="corBlue">https://undraw.co/illustrations/...</a><small><i> (Navegue para encontrar as imagens que atendem às suas necessidades e clique para baixar. Use a geração de imagens coloridas on-the-fly para combinar com a identidade da sua marca.)</i></small></p>          
+                    <p><strong>ûdemy:</strong> <a href="https://www.udemy.com/" target="_blank" class="corBlue">https://www.udemy.com/</a></p>          
+                    <p><strong>WampServer:</strong> <a href="https://www.wampserver.com/en/" target="_blank" class="corBlue">https://www.wampserver.com/en/...</a><small><i> (WampServer é um ambiente de desenvolvimento web do Windows. Ele permite que você crie aplicativos da web com Apache2, PHP e um banco de dados MySQL. Paralelamente, o PhpMyAdmin permite que você gerencie facilmente seus bancos de dados.)</i></small></p>          
+                    <p><strong>w3schools.com/css:</strong> <a href="https://www.w3schools.com/css/" target="_blank" class="corBlue">https://www.w3schools.com/css/</a></p>          
+                    <p><strong>y2mate:</strong> <a href="https://y2mate.nu/Pio1" target="_blank" class="corBlue">https://y2mate.nu/Pio1</a></p>          
+                    <h2 class="textLeft">Sites para criação de Páginas</h2>
+                    <!-- <p><strong>Modelo:</strong> <a href="00" target="_blank" class="corBlue">00...</a><small><i>()</i></small></p>                     -->
+                    <p><strong>CSS animation #1:</strong> <a href="https://codepen.io/desenvolvweb/pen/zYeYrvV" target="_blank" class="corBlue">https://codepen.io/desenvolvweb...</a><small><i> (CSS animation-timeline: exemplo #1.)</i></small></p>                     
+                    <p><strong>CSS animation #2:</strong> <a href="https://codepen.io/desenvolvweb/pen/KKJKVbL" target="_blank" class="corBlue">https://codepen.io/desenvolvweb...</a><small><i> (CSS animation-timeline: exemplo #2.)</i></small></p>                     
+                    <p><strong>CSS animation #3:</strong> <a href="https://codepen.io/desenvolvweb/pen/rNPNLYK" target="_blank" class="corBlue">https://codepen.io/desenvolvweb...</a><small><i> (CSS animation-timeline: exemplo #3.)</i></small></p>                     
+                    <p><strong>Cubic-Bezier:</strong> <a href="https://cubic-bezier.com/#.17,.67,.83,.67" target="_blank" class="corBlue">https://cubic-bezier.com/#.17,.67,.83,.67...</a><small><i>(Visualizar e comparar efeitos do transition, podendo criar curvas personalizadas)</i></small></p>                                        
+                    <p><strong>Dpw:</strong> <a href="https://desenvolvimentoparaweb.com/" target="_blank" class="corBlue">https://desenvolvimentoparaweb.com/...</a><small><i> (desenvolvimento para web (carinhosamente conhecido como dpw) compartilha gratuitamente, há mais de 12 anos, conteúdos e recursos sobre desenvolvimento web, tais como HTML, CSS, JavaScript, performance, WordPress, UX, SEO, web design, padrões da web e muito mais.)</i></small></p>                    
+                    <p><strong>Google Sites:</strong> <a href="https://sites.google.com/new" target="_blank" class="corBlue">https://sites.google.com/new...</a><small><i> (Simples e direto, bom para quem precisa de uma solução rápida e integrada com outros serviços do Google.)</i></small></p>                    
+                    <p><strong>Hostinger:</strong> <a href="https://www.hostinger.com.br/" target="_blank" class="corBlue">https://www.hostinger.com.br/...</a><small><i>(Tudo o que você precisa para criar seu site. Até 76% de desconto na hospedagem + Criador de Sites.)</i></small></p>                    
+                    <p><strong>Jimdo:</strong> <a href="https://www.jimdo.com/" target="_blank" class="corBlue">https://www.jimdo.com/...</a><small><i> (Fácil de usar e ótimo para sites simples, com opções para e-commerce também.)</i></small></p>                    
+                    <p><strong>Materiais de APOIO:</strong> <a href="https://devclub.notion.site/Materiais-de-APOIO-57c8b47e3e284583b0a54cdd941c9550" target="_blank" class="corBlue">https://devclub.notion.site/Materiais-de-APOIO-57c8b47e3e284583b0a54cdd941c9550...</a><small><i>(devclub.notion.site/Materiais-de-APOIO.)</i></small></p>                                        
+                    <p><strong>scroll-driven-animations.style:</strong> <a href="https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes" target="_blank" class="corBlue">scroll-driven-animations....</a><small><i> (scroll-driven-animations.)</i></small></p>                    
+                    <p><strong>Squarespace:</strong> <a href="https://pt.squarespace.com/" target="_blank" class="corBlue">https://pt.squarespace.com/...</a><small><i> (Ideal para sites elegantes e visuais. Oferece muitos templates e um editor fácil de usar.)</i></small></p>                    
+                    <p><strong>w3-animations:</strong> <a href="https://www.w3.org/TR/scroll-animations-1/" target="_blank" class="corBlue">https://www.w3.org/TR/scroll-animations-1/...</a><small><i> (Animações orientadas por rolagem.)</i></small></p>                    
+                    <p><strong>Webflow:</strong> <a href="https://webflow.com/" target="_blank" class="corBlue">https://webflow.com/...</a><small><i> (Permite criar sites complexos visualmente, mas oferece também funcionalidades avançadas para quem entende um pouco mais de design web.)</i></small></p>                    
+                    <p><strong>Weebly:</strong> <a href="https://www.weebly.com/" target="_blank" class="corBlue">https://www.weebly.com/...</a><small><i> (Um editor visual de arrastar e soltar com temas prontos para e-commerce e sites pessoais.)</i></small></p>                    
+                    <p><strong>Wix:</strong> <a href="https://www.wix.com/" target="_blank" class="corBlue">https://www.wix.com/...</a><small><i> (Oferece um construtor de sites intuitivo com drag-and-drop, além de modelos prontos e personalizáveis.)</i></small></p>                    
+                    <p><strong>WordPress.com:</strong> <a href="https://wordpress.com/pt-br/" target="_blank" class="corBlue">https://wordpress.com/pt-br/...</a><small><i> (A versão hospedada do WordPress oferece construtor de páginas sem precisar de conhecimento de código.)</i></small></p>                    
+                    <p><strong>Zyro:</strong> <a href="https://www.hostinger.com/website-builder" target="_blank" class="corBlue">https://www.hostinger.com/website-builder...</a><small><i> (Um construtor de sites simples com recursos como inteligência artificial para personalizar o layout.)</i></small></p>                    
+                    <h2 class="textLeft">Formatando cores</h2>
+                    <p><strong>ColorBox:</strong> <a href="https://colorbox.io/" target="_blank" class="corBlue">https://colorbox.io/...</a><small><i> ()</i></small></p>                    
+                    <p><strong>Coolors:</strong> <a href="https://coolors.co/773344-e3b5a4-8e99b8-0b0014-d44d5c" target="_blank" class="corBlue">https://coolors.co.......</a><small><i> (O superrápido gerador de paletas de cores! Crie a paleta perfeita ou inspire-se com milhares de lindos esquemas de cores.)</i></small></p>                              
+                    <p><strong>Palettte - Gabriel Schneider:</strong> <a href="https://palettte.app/" target="_blank" class="corBlue">https://palettte.app/...</a><small><i> (Palette App é uma ferramenta de design gratuita que ajuda você a construir, analisar e ajustar paletas de cores. Importe paletas via JSON ou comece do zero, ajuste-as e exporte-as novamente para JSON, CSS ou via texto simples para outras ferramentas de design.)</i></small></p>                    
+                    <p><strong>Ranoya:</strong> <a href="https://www.ranoya.com/books/public/css/corescss.php" target="_blank" class="corBlue">https://www.ranoya.com/books/public/css/corescss.php...</a><small><i> (As cores na tecnologia web são registradas através de um índice com sua composição RGB (vermelho, verde e azul) indicadas através de valores hexadecimais de 0 a 255. Este índice é representado pelo caractere "#" e os valores RBG em sequência, resultando em um dado do tipo #25A9F0.)</i></small></p>                    
+                    <p><strong>Tailwincss:</strong> <a href="https://tailwindcss.com/docs/customizing-colors/" target="_blank" class="corBlue">https://tailwindcss.com/docs/customizing-colors/...</a><small><i> (Personalizando a paleta de cores padrão para seu projeto. Paleta de cores padrão. O Tailwind inclui uma paleta de cores padrão pronta para uso e elaborada por especialistas, o que é um ótimo ponto de partida se você não tem uma marca específica em mente..)</i></small></p>          
+                    <p><strong>Ui Color:</strong> <a href="https://uicolors.app/create" target="_blank" class="corBlue">https://uicolors.app/create...</a><small><i> (Insira um código hexadecimal para criar uma escala de cores personalizada.)</i></small></p>                    
+                    <!-- <p><strong>Modelo:</strong> <a href="00" target="_blank" class="corBlue">00...</a><small><i> ()</i></small></p>                     -->
+               </article>
+            </section>
+        </section>
+
+        <h2 section id="realize">Seus sonhos, seu objetivo...</h2>
+            <section class="container">
+            <!-- <div class="top-bar">
+                <h2>Faça dos seus sonhos, seu objetivo...</h2>
+            </div> -->
+            <article>
+                <center><img src="./image/sonho.jpg" class="imgFormat" alt=""></center>
+                <p><center><strong><small><i>Aqui está a imagem que retrata o tema "Faça dos seus sonhos, seu objetivo!" com uma pessoa olhando para o topo de uma montanha, simbolizando a jornada de alcançar seus sonhos.</i></small></strong></center></p>
+                <p>"Faça dos seus sonhos, seu objetivo!" é uma afirmação poderosa, que carrega em si uma essência transformadora. Muitas vezes, os sonhos são vistos como algo distante, quase intangível, uma aspiração que existe apenas na nossa imaginação. No entanto, o verdadeiro poder de um sonho reside na sua capacidade de se tornar um objetivo claro, concreto, e alcançável. Para isso, é necessário transformar o sonho em algo que você pode trabalhar ativamente para conquistar.</p>
+                <p>O primeiro passo para fazer dos seus sonhos o seu objetivo é visualizar com clareza o que você realmente deseja. Definir o sonho é crucial, porque um objetivo sem definição é apenas um desejo vago. Pergunte a si mesmo: O que eu quero alcançar? Quais são os detalhes desse sonho? Essa clareza ajuda a manter o foco e a determinar o caminho a seguir.</p>
+                <p>Em seguida, é preciso traçar um plano de ação. Um sonho, por maior que seja, só se realiza com esforço, planejamento e disciplina. Quebre seu objetivo em pequenas metas alcançáveis, diárias, semanais, ou mensais. Cada pequeno passo adiante deve ser celebrado, pois representa progresso. Lembre-se de que a consistência é mais importante do que a velocidade. Não importa o quão lentamente você avance, o essencial é não parar.</p>
+                <p>O caminho para realizar um sonho está repleto de desafios. É preciso resiliência para enfrentar os obstáculos, manter a confiança e a motivação mesmo quando as coisas parecem difíceis. Momentos de dúvida e frustração vão surgir, e é nesses momentos que você deve se lembrar por que começou. Mantenha seus olhos no prêmio final, e lembre-se de que o esforço investido hoje será recompensado no futuro.</p>
+                <p>Além disso, acredite em si mesmo. A autoconfiança é um ingrediente essencial para transformar sonhos em realidade. Sem acreditar que você é capaz, os desafios parecerão insuperáveis. Cultivar uma mentalidade positiva, onde você se vê como alguém capaz de conquistar grandes coisas, é fundamental para manter a motivação e superar os obstáculos.</p>
+                <p>A jornada para fazer dos seus sonhos o seu objetivo também envolve a adaptação e a flexibilidade. Nem sempre o caminho que você traçou será o mais direto ou o mais eficaz. Seja flexível para ajustar o curso conforme necessário, sem perder de vista o destino final.</p>
+                <p>Por fim, desfrute do processo. Realizar um sonho é mais do que alcançar uma meta; é sobre o crescimento, o aprendizado e a transformação pessoal que ocorrem ao longo do caminho. Celebre suas conquistas, aprenda com os fracassos e siga sempre em frente com a determinação de quem sabe que está construindo algo grandioso. Faça dos seus sonhos, seu objetivo, e transforme sua vida naquilo que você sempre imaginou.</p>
+                <p>Em suma, quando você faz dos seus sonhos seus objetivos, você está dando a eles um lugar no mundo real. Ao definir metas claras, planejar cuidadosamente, manter a resiliência e acreditar em si mesmo, qualquer sonho pode se tornar realidade. Afinal, os sonhos existem para nos lembrar de tudo o que podemos ser e conquistar.</p>
+            </article>
+            </section>
+        </section>
+
+        <h2 section id="video">Abat-jour Giratório</h2>
+    <!-- <center><p>Abat-jour Giratório</p></center> -->
+    <!-- <section id="fim"> -->
+            <section class="container">
+            <!-- <div class="top-bar">
+                <h2>Abat-jour Giratório</h2>
+            </div> -->
+                <article>
+                   <center>
+                    <div class="video-container" id="video-container">
+                        <video controls id="my-video">
+                            <source src="./video/abajur giratorio.webm" type="video/mp4">
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    </div>
+                    </center>
+                    <!-- <center><h6 class="bordaTitulo">abat-jour Giratório</h6></center> -->
+                    <p><center><strong><small><i>O uso de vídeos na apresentação de trabalhos artesanais é essencial para transmitir de forma mais completa o processo criativo e a qualidade das peças</i></small></strong></center></p>                     
+                    <p>Ao contrário de fotos estáticas, o vídeo permite que o espectador veja detalhes como textura, movimento e dimensões reais dos materiais utilizados. Isso gera uma experiência imersiva, aproximando o público do artesão e de sua arte.</p>
+                    <p>Além disso, o vídeo possibilita demonstrar as técnicas e o cuidado envolvidos na produção, valorizando o trabalho manual.</p>
+                    <p>O formato audiovisual também amplia o alcance de divulgação, atraindo públicos em redes sociais e plataformas digitais, onde o vídeo é um dos formatos mais engajadores.</p>
+                    <p>Através de uma narrativa visual, é possível contar a história por trás da obra, conectando emocionalmente o espectador com o artesanato e aumentando o seu valor percebido.</p>
+                </article>
+            </div>
+            </section>   
+        </section>
+
+<!-- inicio de matérias  -->
+
+        <h2 section id="autismo">.</h2>         
+<!-- <center><p>Formule perguntas claras</p></center> -->
+            <section class="container2">
+            <!-- Barra fixa no topo do container -->
+            <div class="top-bar">
+                <h2>Autismo</h2>
+            </div>
+            <!-- Conteúdo do container -->
+            <section class="containerMsg">
+            <article>
+               <center><p>eBook oferece uma visão clara e prática sobre o tema abordado, proporcionando insights valiosos para leitores de todos os níveis. Com conteúdo atualizado e organizado, ele guia o leitor passo a passo de forma envolvente. Ideal para quem busca aprimorar conhecimentos ou explorar novos tópicos de maneira eficaz.</p></center>
+            </article>
+            </section>
+           <article>
+               <center><img src="./image/altismo.png" class="imgPng" alt=""></center>
+               <h2 class="textLeft">Autismo</h2>
+               <p>
+                    O autismo, ou <span class="corDestaque">Transtorno do Espectro Autista (TEA)</span>, é uma condição neurodesenvolvimental caracterizada por desafios em três áreas principais: comunicação, interação social e comportamentos repetitivos ou interesses restritos. É chamado de <span class="corDestaque">"espectro"</span> porque varia amplamente em termos de severidade e manifestações, com algumas pessoas apresentando dificuldades mais sutis e outras com necessidades de suporte mais significativas.<br>
+                    <h2 class="textLeft">Características do Autismo</h2> 
+                    <h3>Dificuldades na comunicação:</h3>                        
+                    Algumas pessoas no espectro podem ter dificuldades para desenvolver a fala, enquanto outras falam fluentemente, mas podem ter dificuldade em interpretar o significado mais profundo das interações sociais.<br>
+                    <br>Há também uma tendência a interpretar a linguagem de forma mais literal, e o uso de sarcasmo ou ironia pode ser mal compreendido.<br>
+                    <h3>Dificuldades nas interações sociais:</h3>                         
+                    Indivíduos com autismo podem achar desafiador estabelecer ou manter contato visual, interpretar expressões faciais e emoções, ou entender normas sociais não faladas, como o conceito de "espaço pessoal".<br>
+                    <br>As interações podem ser percebidas como desajeitadas, o que não significa que a pessoa não queira se conectar, mas sim que o faz de uma maneira diferente.
+                    <br><h3>Comportamentos repetitivos e interesses restritos:</h3>                         
+                    Comportamentos como movimentos repetitivos (balançar as mãos, balançar o corpo) são comuns e podem ajudar a regular o excesso de estímulos sensoriais ou emoções.<br>
+                    <br>Muitos autistas desenvolvem interesses intensos e focados em tópicos específicos, que podem ser interpretados como obsessões, mas são formas de explorar e aprender profundamente sobre algo que lhes interessa.<br>
+                    <h3>Questões sensoriais:</h3>                         
+                    Muitas pessoas autistas apresentam hipersensibilidade ou hipossensibilidade a estímulos sensoriais, como sons, luzes, texturas e cheiros. Isso pode tornar certos ambientes ou situações desconfortáveis, mesmo que para outros pareçam normais.
+                    <h2 class="textLeft">Como nos relacionar com pessoas autistas</h2> 
+                    <h3>Respeito pelas diferenças:</h3>                        
+                    Cada pessoa no espectro autista é única, e as experiências variam amplamente. O mais importante é respeitar suas particularidades sem tentar moldá-las às expectativas sociais típicas. É importante aceitar que comportamentos diferentes ou dificuldades na comunicação não diminuem o valor ou a complexidade da pessoa.<br>
+                    <h3>Comunicação clara e direta:</h3>                        
+                    Muitas vezes, pessoas autistas preferem uma comunicação mais direta e clara, sem rodeios ou implicações implícitas. Explicar de forma detalhada e objetiva o que espera ou deseja de uma interação pode ser benéfico.<br>
+                    <br>Evitar usar sarcasmo ou figuras de linguagem complexas pode facilitar a compreensão.<br>
+                    <h3>Paciência e compreensão:</h3>                       
+                    Por vezes, pessoas autistas podem demorar mais para responder ou reagir em interações sociais. Manter a paciência e dar espaço para que se expressem no seu próprio tempo é fundamental.
+                    Não pressionar a pessoa a agir de uma maneira que a deixe desconfortável, como forçar o contato visual ou exigir uma participação intensa em situações sociais, pode ser respeitoso e empático.<br>
+                    <h3>Ambiente inclusivo:</h3>                        
+                    Criar ambientes que levem em conta questões sensoriais pode ser muito útil. Por exemplo, reduzir ruídos excessivos, controlar luzes brilhantes e permitir pausas ou momentos de descanso em ambientes sociais ajudam a pessoa a se sentir mais à vontade.<br>
+                    <br>Oferecer escolhas sobre onde sentar, como participar e o que fazer em atividades coletivas também é uma forma de tornar o ambiente mais inclusivo.
+                    <h3>Respeito às rotinas:</h3>                       
+                    Pessoas autistas muitas vezes se sentem confortáveis com rotinas e previsibilidade. Alterações inesperadas podem causar ansiedade ou desconforto. Se for necessário mudar uma rotina, tente comunicar isso com antecedência e explicar claramente o que vai acontecer.<br>
+                    <h3>Focar nas habilidades:</h3>                        
+                    Muitas pessoas com autismo têm talentos e habilidades específicas, como excelente memória, habilidade com números, ou proficiência em detalhes técnicos. Incentivar essas habilidades pode ajudar a aumentar a autoestima e promover a inclusão.<br>
+                    <h3>Não infantilizar:</h3>                        
+                    É importante<span class="corDestaque"> não subestimar a capacidade de entendimento</span> e inteligência de uma pessoa autista. Mesmo que sua maneira de se expressar seja diferente, ela ainda pode ter uma compreensão profunda sobre diversos tópicos.<br>
+                    <br>Relacionar-se com pessoas no espectro autista exige empatia, compreensão e abertura para aprender sobre suas particularidades. O mais importante é reconhecer a diversidade humana e valorizar cada indivíduo pelas suas características únicas, sem julgamentos ou expectativas de conformidade aos padrões sociais tradicionais
+               </p>
+           </article>
+            </section>
+        </section>
+
+        <h2 section id="tdh">.</h2>    
+            <section class="container2">
+        <!-- Barra fixa no topo do container -->
+            <div class="top-bar">
+                <h2>TDH</h2>
+            </div>
+            <!-- Conteúdo do container -->
+           <article>
+               <center><img src="./image/tdh.png" class="imgFormat" alt=""></center>
+               <p><center><strong><i><small>Aqui está uma ilustração em 3D que representa o Transtorno de Déficit de Atenção e Hiperatividade (TDAH). Ela simboliza diferentes aspectos do distúrbio, como a desatenção, hiperatividade e impulsividade, com elementos visuais que refletem a complexidade e a agitação mental associada ao TDAH.</small></i></strong></center></p>               
+               <h2 class="textLeft">TDH</h2>
+               <p>
+                A Transtorno de Déficit de Atenção e Hiperatividade (TDAH) é um distúrbio neurobiológico que afeta principalmente crianças, mas também pode persistir na vida adulta. Ele se caracteriza por dificuldades em manter a atenção, impulsividade e hiperatividade, variando em intensidade de pessoa para pessoa. O TDAH interfere diretamente nas capacidades cognitivas e comportamentais, impactando áreas como o desempenho acadêmico, as relações interpessoais e a adaptação ao cotidiano.
+                <h2class="textLeft">Principais Características do TDAH:</h2>
+                <h3>Desatenção:</h3>
+                <ul>Dificuldade em manter o foco em tarefas ou atividades por longos períodos.</ul>
+                <ul>Tendência a se distrair facilmente com estímulos externos ou pensamentos irrelevantes.</ul>
+                <ul>Desorganização, perda frequente de objetos e esquecimento de compromissos ou tarefas.</ul>
+                <ul>Dificuldade em seguir instruções e completar tarefas.</ul>
+                <h3>Hiperatividade:</h3>
+                <ul>Agitação física constante, como inquietação, dificuldade para permanecer sentado.</ul>
+                <ul>Falar excessivamente ou com rapidez.</ul>
+                <ul>Comportamentos impulsivos como se mexer ou levantar-se em momentos inadequados.</ul>
+                <h3>Impulsividade:</h3>
+                <ul>Ações impensadas, sem avaliar as consequências.</ul>
+                <ul>Dificuldade em esperar a vez em situações sociais ou acadêmicas.</ul>
+                <ul>Interrupção frequente das falas de outras pessoas ou respostas antes de a pergunta ser concluída.</ul>
+                Esses sintomas podem se manifestar de forma combinada ou isolada, e as pessoas com TDAH podem apresentar predomínio de uma ou outra característica. Além disso, o TDAH está frequentemente associado a outros problemas, como ansiedade, transtornos de conduta e dificuldades de aprendizagem.             
+                <h3>Diagnóstico:</h3>
+                O diagnóstico do TDAH é clínico e deve ser realizado por um profissional especializado, como psiquiatra, psicólogo ou neurologista. Ele é baseado na avaliação dos sintomas ao longo do tempo e em diferentes contextos (escola, casa, trabalho), juntamente com a análise do histórico médico e comportamental. Para que o diagnóstico seja feito, os sintomas devem estar presentes por pelo menos seis meses e ocorrer em mais de um ambiente (por exemplo, na escola e em casa).              
+                <h3>Relacionamento com Pessoas com TDAH:</h3>
+                Pessoas com TDAH podem ter dificuldades em ambientes que exigem organização, paciência e atenção prolongada. No entanto, isso não significa que não possam desenvolver habilidades eficazes para lidar com essas demandas. Algumas abordagens para apoiar e interagir com quem tem TDAH incluem:                
+                <ul><span class="corDestaque">Paciência e compreensão:</span> Reconhecer que a falta de foco ou a impulsividade não são atitudes voluntárias, mas parte do transtorno, ajuda a construir um ambiente de apoio.</ul>                
+                <ul><span class="corDestaque">Estrutura e rotina:</span> Estabelecer uma rotina clara e organizada facilita a adaptação, pois a previsibilidade ajuda a reduzir a desatenção e a impulsividade.</ul>                
+                <ul><span class="corDestaque">Orientação positiva:</span> Em vez de críticas constantes, oferecer reforços positivos para comportamentos adequados e o cumprimento de tarefas pode incentivar o desenvolvimento de estratégias eficazes para lidar com os sintomas.</ul>                
+                <ul><span class="corDestaque">Divisão de tarefas:</span> Ajudar a dividir tarefas complexas em etapas menores e gerenciáveis pode facilitar o foco e a execução das atividades.</ul>                
+                <ul><span class="corDestaque">Ambiente sem distrações:</span> Criar ambientes com menos distrações, como ruídos ou estímulos visuais excessivos, pode ajudar a pessoa com TDAH a se concentrar melhor em suas atividades.</ul>                
+                <ul><span class="corDestaque">Foco nas habilidades:</span> Apesar dos desafios, muitas pessoas com TDAH possuem grande capacidade criativa, inovação e energia. Valorizar essas qualidades pode ser muito benéfico.</ul>                
+                <h3>Características e Impacto em Diferentes Idades:</h3>
+                <ul><span class="corDestaque">Infância:</span> É comum que as crianças com TDAH apresentem dificuldades na escola, como problemas de concentração e organização, além de comportamentos impulsivos que podem afetar as relações com colegas e professores. A falta de controle motor (hiperatividade) também é mais evidente nessa fase.</ul>                
+                <ul><span class="corDestaque">Adolescência:</span> Os sintomas podem se manifestar de maneira diferente. A impulsividade e a desatenção continuam, mas a hiperatividade física pode diminuir, sendo substituída por inquietação mental. As dificuldades de organização e a impulsividade podem afetar o desempenho acadêmico e as relações sociais.</ul>                
+                <ul><span class="corDestaque">Vida Adulta:</span> Em adultos, o TDAH pode causar dificuldades no trabalho, em relacionamentos e na gestão da vida cotidiana, com problemas como procrastinação, esquecimentos frequentes, dificuldades em manter compromissos e distração constante. No entanto, muitos adultos com TDAH encontram formas de compensar seus desafios, desenvolvendo estratégias de organização e foco.</ul>                
+                <h3>Tratamento e Gerenciamento do TDAH:</h3>
+                O tratamento do TDAH geralmente envolve uma combinação de abordagens:                
+                <ul><span class="corDestaque">Psicoterapia:</span> Terapias comportamentais, como a Terapia Cognitivo-Comportamental (TCC), ajudam a desenvolver habilidades de organização, controle da impulsividade e enfrentamento de desafios emocionais.</ul>                
+                <ul><span class="corDestaque">Medicamentos:</span> O uso de medicamentos estimulantes, como metilfenidato ou anfetaminas, pode ser prescrito para ajudar a regular o funcionamento cerebral e melhorar a atenção e o controle de impulsos.</ul>                
+                <ul><span class="corDestaque">Apoio educacional:</span> Estratégias pedagógicas específicas, como o uso de adaptadores curriculares, podem ajudar crianças e adolescentes a manterem o foco e melhorar o aprendizado.</ul>                
+                <ul><span class="corDestaque">Suporte familiar:</span> Programas de treinamento para pais de crianças com TDAH são fundamentais para ajudar na criação de um ambiente doméstico estruturado e acolhedor.</ul>    
+                Em resumo, o TDAH é uma condição desafiadora, mas com o diagnóstico correto, tratamento adequado e apoio, as pessoas podem aprender a gerenciar seus sintomas e ter uma vida plena e produtiva.
+               </p>
+           </article>
+            </section>
+        </section>
+
+        <h2 section id="landingPage">.</h2>    
+            <section class="container2">
+            <!-- Barra fixa no topo do container -->
+            <div class="top-bar">
+                <h2>Landing Page</h2>
+            </div>
+            <!-- Conteúdo do container -->
+        <article>
+            <p>
+               <center><img src="./image/landingPage.png" class="imgFormat" alt="Landing Page"></center>  
+               <h2 class="textLeft">Como construir Landing Page de Alta Conversão</h2>
+               <p>Construir uma landing page de alta conversão requer uma combinação de design, conteúdo persuasivo e estrutura clara, tudo com o objetivo de maximizar o engajamento e as ações do usuário. Aqui estão os principais elementos para construir uma landing page de alta conversão:</p>    
+               <h3>1. Objetivo Claro</h3>
+               <ul><span class="corDestaque">Defina um objetivo único:</span> Sua landing page deve ter uma única meta clara, como a coleta de e-mails, downloads de um e-book ou vendas de um produto específico. Evite dispersar a atenção com vários objetivos.</ul>
+               <h3>2. Título Impactante</h3>
+               <ul><span class="corDestaque">Crie um título claro e direto:</span> Seu título deve capturar a atenção imediatamente e comunicar o valor principal que você está oferecendo. Ele deve ser simples, mas persuasivo, destacando os benefícios.</ul>
+               <ul><span class="corDestaque">Subtítulo de apoio:</span> Logo abaixo do título, use um subtítulo para complementar a ideia e fornecer mais detalhes, reforçando a proposta de valor.</ul>
+               <h3>3. Design Limpo e Atraente</h3>
+               <ul><span class="corDestaque">Minimalismo:</span> Mantenha um design simples, focando em um layout limpo com bastante espaço em branco para guiar o usuário sem distrações.</ul>
+               <ul><span class="corDestaque">Tipografia legível:</span> Use fontes grandes e legíveis, com contraste adequado entre o texto e o fundo.</ul>
+               <ul><span class="corDestaque">Imagens relevantes:</span> Imagens de alta qualidade e vídeos curtos podem aumentar a conversão, desde que sejam relevantes ao conteúdo e transmitam confiança.</ul>
+               <h3>4. Call to Action (CTA) Poderoso</h3>
+               <ul><span class="corDestaque">Botões destacados:</span> O CTA (call to action) deve ser claro e visível, usando cores contrastantes que se destaquem no layout da página.</ul>
+               <ul><span class="corDestaque">Texto persuasivo:</span> Use verbos de ação no CTA, como "Baixar Agora", "Começar Gratuito", "Garantir Minha Vaga". O CTA deve ser direto e focado no benefício.</ul>
+               <ul><span class="corDestaque">Posicionamento estratégico:</span> Coloque o CTA em locais estratégicos, como logo no início da página, no meio e no final, para facilitar o acesso do usuário.</ul>
+               <h3>5. Prova Social</h3>
+               <ul><span class="corDestaque">Depoimentos e Avaliações:</span> Adicione depoimentos de clientes ou avaliações que comprovem a eficácia ou o valor da sua oferta.</ul>
+               <ul><span class="corDestaque">Números de usuários:</span> Estatísticas, como o número de downloads ou clientes satisfeitos, aumentam a confiança.</ul>
+               <h3>6. Benefícios Claros</h3>
+               Destacar benefícios em vez de recursos: Mostre claramente os benefícios do produto ou serviço, focando em como isso resolve o problema do usuário.
+               <ul><span class="corDestaque">Use listas de vantagens:</span> Destaque os benefícios principais em bullet points para facilitar a leitura.</ul>
+               <h3>7. Formulário Simples</h3>
+               <ul><span class="corDestaque">Menos é mais:</span> Solicite apenas as informações essenciais. Quanto mais longo o formulário, menor será a conversão. Coletar o nome e o e-mail costuma ser suficiente.</ul>
+               <ul><span class="corDestaque">Clareza no envio:</span> Deixe claro o que acontecerá após o envio do formulário, como receber um e-book, um contato de vendas, etc.</ul>
+               <h3>8. Garantia ou Risco Zero</h3>
+               <ul><span class="corDestaque">Reduza a percepção de risco:</span> Ofereça uma garantia ou prova de confiança, como uma política de reembolso ou uma amostra gratuita. Isso tranquiliza o usuário e reduz a hesitação em tomar ação.</ul>
+               <h3>9. Urgência e Escassez</h3>
+               <ul><span class="corDestaque">Crie senso de urgência:</span> Usar elementos de urgência, como contagem regressiva, promoção com tempo limitado ou ofertas de vagas limitadas, pode motivar o usuário a agir mais rapidamente.</ul>
+               <h3>10. Velocidade e Responsividade</h3>
+               Carregamento rápido:</span> Páginas lentas têm maior taxa de abandono. Otimize sua landing page para carregar rapidamente em todos os dispositivos.</ul>
+               <ul><span class="corDestaque">Responsividade:</span> Certifique-se de que a landing page funciona bem em dispositivos móveis, tablets e desktops.</ul>
+               <h3>11. Testes A/B</h3>
+               <ul><span class="corDestaque">Testes contínuos:</span> Sempre realize testes A/B para otimizar o design, texto, CTAs e outros elementos. Pequenos ajustes podem aumentar significativamente a conversão ao longo do tempo.</ul>
+               <h3>12. Certificados e Selos de Segurança</h3>
+               <ul><span class="corDestaque">Mostrar segurança:</span> Se sua landing page envolve coleta de informações ou compras, mostrar selos de segurança, como SSL, pode aumentar a confiança.</ul>
+               <h3>Estrutura Básica de uma Landing Page de Alta Conversão:</h3>
+               <ul><span class="corDestaque">Header:</span> Título e subtítulo claros, CTA inicial.</ul>
+               <ul><span class="corDestaque">Imagens/Vídeos:</span> Elementos visuais que ilustrem a oferta.</ul>
+               <ul><span class="corDestaque">Benefícios:</span> Lista curta de benefícios com destaque nos pontos principais.</ul>
+               <ul><span class="corDestaque">Prova Social:</span> Depoimentos, estudos de caso ou estatísticas de clientes.</ul>
+               <ul><span class="corDestaque">CTA:</span> Botões de chamada para ação estrategicamente posicionados.</ul>
+               <ul><span class="corDestaque">Formulário Simples:</span> De fácil preenchimento e com poucas etapas.</ul>
+               <ul><span class="corDestaque">Garantia/Risco Zero:</span> Oferta de garantia ou retorno.</ul>
+               <ul><span class="corDestaque">Rodapé:</span> Links úteis, como política de privacidade, e mais CTAs.
+               <p>Seguindo essas práticas, você aumenta as chances de sua landing page converter mais visitantes em leads ou clientes.</p>
+            </p>
+        </article>
+            </section>
+        </section>
+
+        <h2 section id="tempo">.</h2>    
+            <section class="containerTempo">
+                <div class="top-barTempo">
+                    <p>Previsão do tempo</p>
+                </div>
+                <article>
+                       <center><img src="./image/temperatura.png" class="imgSmall" alt=""></center>
+                       <p>
+                        <div class="caixa-maior">
+                            <input class="input-cidade" placeholder="Digite o nome da cidade">
+                            <button class="bordaButton" onclick="cliqueiNoBotao()">
+                                <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg">
+                            </button>
+                        <center>
+                            <div class="caixa-media">
+                                <h2 class="cidade"></h2>
+                                <p class="temp"></p>
+                                <img class="imgSmall" src="https://openweathermap.org/img/wn/04n.png">
+                                <!-- <p class="umidade">Umidade: 70%</p> -->
+                            </div>
+                        </center>
+                        </div>
+                       </p>
+                </article>
+            </section>    
+        </section>    
+
+
+<!-- inicio de matérias  -->
+
+<!-- inicio do bloco de notas  -->
+
+        <h2 section id="blocoDeNotas">Bloco de Notas</h2>
+            <section class="container">
+                <!-- <div class="top-bar">
+                <h2>Minhas anotações</h2>
+                </div>        -->
+        <form id="meuForm">
+        <center><img src="./image/blocoDeNotas.png" class="imgSmall" alt=""></center>
+        <label for="nome">Nome:</label>
+        <!-- converte para letras maiúsculas o texto do nome, e cor azul -->
+        <input type="text" id="nome" name="nome" oninput="this.value = this.value.toUpperCase()" class="corBlue" /><br /><br />
+
+        <!-- <label for="nome">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" /><br /><br />     
+
+        <div class="form-container">
+            <div class="input-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="input-group">
+                <label for="celular">Celular:</label>
+                <input type="celular" id="celular" name="celular">
+            </div>
+        </div> -->
+
+        <!-- <label for="nome">e-mail:</label>
+        <input type="textEmail" id="email" name="email" /><br /><br />        
+
+        <label for="nome">Celular:</label>
+        <input type="textCelular" id="celular" name="celular" /><br /><br />         -->
+
+        <label for="mensagem">Mensagem:</label>
+
+        <!-- O cols e rows são opcionais, se preferir controlar tudo via CSS -->
+        <textarea id="mensagem" name="mensagem"></textarea><br /><br />
+        
+        <input class="corButton" type="submit" value="Salvar" />
+        <button class="corButton" onclick="imprimirPagina()">Imprimir</button>
+        </form>
+      <!-- Botão para imprimir -->
+        </section>
+
+<!-- final do bloco de notas -->
+        <h2><section id="about">.</h2>
+            <article class="boxSobre">
+                <h2 class="corBox">Sobre Nós</h2>
+                <img src="./image/houver.png" class="imgSmall" alt="">  
+                    <p>Informações sobre nossa empresa e equipe.</p>
+                    <h2 class="corBox">Nossos Serviços</h2>       
+                    <h3 class="corBox">Consultoria</h3>
+                    <p>Oferecemos consultoria em diversas áreas.</p>
+                    <h3 class="corBox">Desenvolvimento Web</h3>
+                    <p>Desenvolvemos websites personalizados para sua empresa.</p>
+                    <aside>
+                        <h2 class="corBox">Notícias Recentes</h2>
+                        <img src="./image/sobreNos.png" class="imgSmall" alt="">                    
+                    <p>Veja nossas últimas novidades e atualizações. Sempre atualizamos informações referentes ao aplicativo.</p>
+                    </aside>    
+            </article>
+        </section>
+</section>
+</main>
+<script src="./script.js"></script>  
+</body>
+
+<footer>
+    <p>&copy; Edinho Monteiro</p>
+</footer>
+</html>
